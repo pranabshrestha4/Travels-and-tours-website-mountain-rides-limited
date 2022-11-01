@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .wrapper{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  header{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+  }
+  
+  .logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+  }
+  
+  .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+  }
+  
+  nav{
+    float: right;
+    line-height: 100px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+  }
+
+  .container{
+    margin-top: 10px;
+    color: black;
+  }
+
+  .col-md-4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 99vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+  
+  }
+  .socials a:hover i{
+    color: aqua;
+  }
+  
+  .footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
